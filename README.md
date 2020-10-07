@@ -1,22 +1,17 @@
 # Kittydev Dynamic FormBulider
 
-[![GitHub release](https://img.shields.io/github/release/padmadev/Kittydev-Dynamic-FormBulider)](https://GitHub.com/padmadev/Kittydev-Dynamic-FormBulider/releases/)
+| [![GitHub release](https://img.shields.io/github/release/padmadev/Kittydev-Dynamic-FormBulider)](https://GitHub.com/padmadev/Kittydev-Dynamic-FormBulider/releases/) | [![GitHub license](https://img.shields.io/github/license/padmadev/Kittydev-Dynamic-FormBulider)](https://github.com/padmadev/Kittydev-Dynamic-FormBulider/blob/master/LICENSE) |
+|--|--|
+
 
 
 **Attention**: This library is Currently in Initial Stage with Limited elements.
 
  * Build `Dynamic Forms` Easily
  * Material Design Elements
- 
 
-
-
-Library projects
+Implementation
 --------
-
-
-
-
 ```groovy
 //In build.gradle(project)
 allprojects {  
@@ -27,29 +22,23 @@ allprojects {
 
 //In build.gradle(app)
 dependencies {
-	implementation 'com.github.padmadev:Kittydev-Dynamic-FormBulider:1.0'  
-	implementation 'com.google.android.material:material:1.2.1'
+	implementation 'com.github.padmadev:Kittydev-Dynamic-FormBulider:ver'  
+	implementation 'com.google.android.material:material:ver'
 }
 
 //In Style.xml Add any Material Design Theme
 parent="Theme.MaterialComponents.Light.NoActionBar.Bridge"
- 
-
 ```
-
 Current Support
 --------
-
 * Text Field (only text)
 * DropDown / Single Select
 * Slider
 * Rating (Star) 
 * Button
 
-
 Usage
 --------
-
 **XML**
 
 ```xml
